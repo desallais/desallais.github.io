@@ -1,0 +1,43 @@
+<script>
+// Language switcher: point EN|FR at the *equivalent* page, never at the other
+// language's home page. EN pages live at /x.html, FR pages at /fr/x.html with
+// identical file names, so the mapping is purely path-based.
+// Without JavaScript the links fall back to the hrefs set in _quarto-*.yml.
+(function () {
+  function langLink(code) {
+    var a = document.querySelector('.navbar a[rel~="lang-' + code + '"]');
+    if (a) return a;
+    // Fallback if the rel attribute is not emitted: match the link text.
+    var links = document.querySelectorAll(".navbar .navbar-nav a.nav-link");
+    for (var i = 0; i < links.length; i++) {
+      if (links[i].textContent.trim().toUpperCase() === code.toUpperCase()) {
+        return links[i];
+      }
+    }
+    return null;
+  }
+
+  var path = window.location.pathname;
+  var m = path.match(/^\/fr(\/.*)?$/);
+  var isFR = m !== null;
+  var rest = isFR ? (m[1] || "/") : path;
+  if (rest === "" || rest.charAt(rest.length - 1) === "/") rest += "index.html";
+
+  var targets = { en: rest, fr: "/fr" + rest };
+  var current = isFR ? "fr" : "en";
+
+  ["en", "fr"].forEach(function (code) {
+    var a = langLink(code);
+    if (!a) return;
+    a.href = targets[code];
+    a.classList.add("lang-item", "lang-" + code);
+    if (code === current) {
+      a.classList.add("lang-current");
+      a.setAttribute("aria-current", "page");
+    } else {
+      a.classList.add("lang-alt");
+      a.setAttribute("hreflang", code);
+    }
+  });
+})();
+</script>
