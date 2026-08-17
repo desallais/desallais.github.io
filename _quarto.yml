@@ -1,0 +1,53 @@
+# Shared configuration for both languages.
+# Language-specific bits (page list, navbar, lang) live in _quarto-en.yml
+# and _quarto-fr.yml and are merged on top of this file by the profile system.
+
+project:
+  type: website
+  output-dir: _site
+  pre-render: scripts/gen_publications.py
+  resources:
+    - assets/cv.pdf
+    - robots.txt
+
+profile:
+  default: en
+  group:
+    - [en, fr]
+
+website:
+  title: "Mario Desallais"
+  site-url: "https://desallais.github.io"
+  search: false
+  page-footer:
+    border: true
+    left: |
+      &copy; 2026 Mario Desallais
+    right:
+      - text: "Email"
+        href: "mailto:mario.desallais@gmail.com"
+        aria-label: "Email"
+      - text: "ORCID"
+        href: "https://orcid.org/0000-0000-0000-0000"
+        aria-label: "ORCID"
+      - text: "Google Scholar"
+        href: "https://scholar.google.com/citations?user=REPLACE_ME"
+        aria-label: "Google Scholar"
+      - text: "GitHub"
+        href: "https://github.com/desallais"
+        aria-label: "GitHub"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - assets/styles.scss
+    toc: false
+    anchor-sections: true
+    link-external-newwindow: true
+    html-math-method: mathjax
+    include-in-header: assets/head.html
+    include-after-body: assets/lang-switch.html
+    fig-cap-location: bottom
+    grid:
+      body-width: 820px

@@ -1,0 +1,38 @@
+# English site (rendered at the root of the domain).
+
+lang: en
+
+project:
+  render:
+    - index.qmd
+    - research.qmd
+    - publications.qmd
+    - cv.qmd
+    - beyond.qmd
+
+bibliography: refs.bib
+
+website:
+  navbar:
+    title: "Mario Desallais"
+    href: index.html
+    left:
+      - text: "Home"
+        href: index.html
+      - text: "Research"
+        href: research.html
+      - text: "Publications"
+        href: publications.html
+      - text: "CV"
+        href: cv.html
+      - text: "Beyond research"
+        href: beyond.html
+    right:
+      - text: "EN"
+        href: "/index.html"
+        rel: "lang-current lang-en"
+        aria-label: "English version"
+      - text: "FR"
+        href: "/fr/index.html"
+        rel: "lang-alt lang-fr"
+        aria-label: "Version française"

@@ -1,0 +1,43 @@
+# Site français (rendu sous /fr/).
+
+# "fr" alone would be resolved as a path (the fr/ directory exists),
+# so the full IETF tag is required here.
+lang: fr-FR
+
+project:
+  # Rendered to its own directory, then merged into _site/fr by build.sh:
+  # rendering a profile prunes output files that the profile does not list.
+  output-dir: _site-fr
+  render:
+    - fr/index.qmd
+    - fr/research.qmd
+    - fr/publications.qmd
+    - fr/cv.qmd
+    - fr/beyond.qmd
+
+bibliography: refs.bib
+
+website:
+  navbar:
+    title: "Mario Desallais"
+    href: /fr/index.html
+    left:
+      - text: "Accueil"
+        href: /fr/index.html
+      - text: "Recherche"
+        href: /fr/research.html
+      - text: "Publications"
+        href: /fr/publications.html
+      - text: "CV"
+        href: /fr/cv.html
+      - text: "Au-delà"
+        href: /fr/beyond.html
+    right:
+      - text: "EN"
+        href: "/index.html"
+        rel: "lang-alt lang-en"
+        aria-label: "English version"
+      - text: "FR"
+        href: "/fr/index.html"
+        rel: "lang-current lang-fr"
+        aria-label: "Version française"

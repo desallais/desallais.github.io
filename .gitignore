@@ -1,0 +1,13 @@
+# Quarto build output and caches
+/_site/
+/.quarto/
+*_files/
+
+# Generated from refs.bib by scripts/gen_publications.py
+/_publications.md
+
+# macOS
+.DS_Store
+
+**/*.quarto_ipynb
+/_site-fr/
