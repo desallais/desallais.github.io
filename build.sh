@@ -14,6 +14,10 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
+# Quarto expands {{< include >}} directives before it runs pre-render scripts,
+# so _publications.md has to exist before the first render of a fresh checkout.
+python3 scripts/gen_publications.py
+
 quarto render --profile en
 quarto render --profile fr
 

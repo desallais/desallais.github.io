@@ -51,8 +51,10 @@ Autres fichiers :
 - `assets/lang-switch.html` — script du sélecteur de langue.
 - `assets/img/` — portrait et figures (placeholders SVG pour l'instant).
 - `scripts/gen_publications.py` — construit `_publications.md` depuis
-  `refs.bib` (lancé automatiquement avant chaque rendu ; fichier généré,
-  non versionné).
+  `refs.bib` (fichier généré, non versionné). Après un clone neuf, le lancer
+  une fois (ou lancer `./build.sh`) avant le premier `quarto preview` :
+  Quarto résout les `{{< include >}}` avant d'exécuter ses scripts de
+  pré-rendu.
 - `scripts/make_placeholders.py` — régénère les placeholders (images, CV).
 - `build.sh` — construit les deux langues et les fusionne dans `_site/`.
 

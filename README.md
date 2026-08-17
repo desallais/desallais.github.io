@@ -5,6 +5,7 @@ Source of the bilingual (EN/FR) personal site of Mario Desallais, built with
 `main`.
 
 ```bash
+./build.sh                     # run once after cloning, then:
 quarto preview --profile en    # English site
 quarto preview --profile fr    # French site
 ./build.sh serve               # both, merged, on http://localhost:4000
