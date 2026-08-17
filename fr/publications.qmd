@@ -1,0 +1,10 @@
+---
+title: "Publications"
+pagetitle: "Publications — Mario Desallais"
+---
+
+Classées par année, de la plus récente à la plus ancienne. Chaque entrée
+renvoie à son DOI. La liste est générée à partir de `refs.bib`, source unique
+des publications du site.
+
+{{< include ../_publications.md >}}

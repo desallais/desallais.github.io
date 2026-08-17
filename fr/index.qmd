@@ -1,0 +1,39 @@
+---
+title: "Mario Desallais"
+subtitle: "Écologue théoricien"
+pagetitle: "Mario Desallais — Écologie théorique"
+description-meta: "Site personnel de Mario Desallais, écologue théoricien."
+---
+
+::: hero
+![](../assets/img/portrait.svg){.portrait fig-alt="Portrait (image provisoire)"}
+
+::: hero-text
+[Affiliation provisoire — Laboratoire, Institution, Ville]{.affil}
+
+Commodo blandit nulla tellus nunc sollicitudin blandit tempus nulla sit
+sollicitudin anim sapien ea tempus adipiscing ad labore. Id suscipit ea sint
+orci ut varius ea ipsum justo laboris proident aute quis. Ad morbi fringilla
+do magna habitasse habitasse officia dolore dolore lorem suscipit lorem
+ullamco sapien. Minim suscipit minim in velit exercitation orci condimentum
+etiam platea ullamco quis.
+
+Exercitation fermentum occaecat reprehenderit dolor pariatur sunt minim aliqua
+consequat sed cillum reprehenderit ultrices porta molestie lorem nibh etiam
+dui. Sed voluptate nulla ultrices voluptate est vitae velit quis est id dui
+veniam elit. Dolor mattis nulla cursus non dolor a arcu sunt pariatur sint
+turpis sollicitudin.
+:::
+:::
+
+## La recherche en bref
+
+- [Coexistence, faisabilité et stabilité structurelle](research.html#coexistence)
+  — hac excepteur duis magna quis placerat etiam lorem eu pretium anim.
+- [Biodiversité et fonctionnement des écosystèmes](research.html#bef)
+  — vitae consectetur justo sint minim dui deserunt aliquam culpa ad minim.
+- [Structure et dynamique des réseaux trophiques](research.html#food-webs)
+  — sapien nunc occaecat tellus mattis venenatis ut in ullamco etiam.
+
+La page [Recherche](research.html) développe ces axes ; les travaux publiés
+sont listés dans [Publications](publications.html).

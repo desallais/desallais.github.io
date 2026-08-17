@@ -1,0 +1,91 @@
+---
+title: "Curriculum vitae"
+pagetitle: "CV — Mario Desallais"
+---
+
+[Télécharger le CV complet (PDF)](../assets/cv.pdf){.pdf-link}
+
+## Formation
+
+::: cv-entry
+[20XX–20XX]{.cv-date}
+**Doctorat, écologie théorique** — Institution provisoire.
+Hac excepteur duis magna quis placerat etiam lorem eu pretium anim fermentum
+porta eiusmod cillum a.
+:::
+
+::: cv-entry
+[20XX–20XX]{.cv-date}
+**Master, écologie et évolution** — Institution provisoire.
+Vitae consectetur justo sint minim dui deserunt aliquam culpa ad minim ex
+adipiscing labore.
+:::
+
+## Postes
+
+::: cv-entry
+[20XX–aujourd'hui]{.cv-date}
+**Poste provisoire** — Laboratoire provisoire.
+Sapien nunc occaecat tellus mattis venenatis ut in ullamco etiam aliquam
+tellus sunt venenatis tempor feugiat duis.
+:::
+
+::: cv-entry
+[20XX–20XX]{.cv-date}
+**Poste provisoire** — Laboratoire provisoire.
+Ullamco cupidatat aute eu lobortis dolor sit amet consectetur adipiscing elit
+sed do eiusmod tempor.
+:::
+
+## Enseignement
+
+::: cv-entry
+[20XX–20XX]{.cv-date}
+**Cours provisoire** — Institution provisoire, XX h par an.
+Incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud
+exercitation ullamco laboris.
+:::
+
+::: cv-entry
+[20XX]{.cv-date}
+**Atelier ou école d'été provisoire** — Lieu provisoire.
+Nisi aliquip ex ea commodo consequat duis aute irure in reprehenderit
+voluptate velit esse cillum.
+:::
+
+::: cv-entry
+[20XX–20XX]{.cv-date}
+**Encadrement** — X étudiants de master, X stagiaires.
+Eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt
+culpa qui officia deserunt.
+:::
+
+## Exposés et séminaires
+
+::: cv-entry
+[20XX]{.cv-date}
+**Communication en congrès (provisoire)** — Congrès provisoire, ville.
+:::
+
+::: cv-entry
+[20XX]{.cv-date}
+**Séminaire invité (provisoire)** — Institution provisoire, ville.
+:::
+
+## Responsabilités et diffusion
+
+::: cv-entry
+[20XX–aujourd'hui]{.cv-date}
+**Relecture** — Revues provisoires.
+:::
+
+::: cv-entry
+[20XX]{.cv-date}
+**Action de diffusion (provisoire)** — Lieu provisoire.
+:::
+
+## Compétences
+
+Mollit anim id est laborum curabitur pretium tincidunt lacus nulla gravida
+orci a odio. Nullam varius turpis molestie nibh porta hac habitasse platea
+dictumst integer tempus convallis augue.
