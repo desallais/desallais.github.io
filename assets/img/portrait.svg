@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="750"
+     viewBox="0 0 600 750" role="img" aria-label="Portrait placeholder">
+  <rect width="600" height="750" fill="#eef1f3"/>
+  <rect x="0.5" y="0.5" width="599" height="749" fill="none"
+        stroke="#c9d2d8" stroke-width="1"/>
+  <line x1="0" y1="0" x2="600" y2="750" stroke="#dde3e7" stroke-width="1"/>
+  <line x1="600" y1="0" x2="0" y2="750" stroke="#dde3e7" stroke-width="1"/>
+  <text x="300" y="352" text-anchor="middle"
+        font-family="system-ui, sans-serif" font-size="46" fill="#2a5d78">Portrait</text>
+  <text x="300" y="421" text-anchor="middle"
+        font-family="system-ui, sans-serif" font-size="32" fill="#7b8792">600 &#215; 750 placeholder</text>
+</svg>
