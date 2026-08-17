@@ -1,0 +1,39 @@
+---
+title: "Mario Desallais"
+subtitle: "Theoretical ecologist"
+pagetitle: "Mario Desallais — Theoretical ecology"
+description-meta: "Personal site of Mario Desallais, theoretical ecologist."
+---
+
+::: hero
+![](assets/img/portrait.svg){.portrait fig-alt="Portrait placeholder"}
+
+::: hero-text
+[Placeholder affiliation — Laboratory, Institution, City]{.affil}
+
+Commodo blandit nulla tellus nunc sollicitudin blandit tempus nulla sit
+sollicitudin anim sapien ea tempus adipiscing ad labore. Id suscipit ea sint
+orci ut varius ea ipsum justo laboris proident aute quis. Ad morbi fringilla
+do magna habitasse habitasse officia dolore dolore lorem suscipit lorem
+ullamco sapien. Minim suscipit minim in velit exercitation orci condimentum
+etiam platea ullamco quis.
+
+Exercitation fermentum occaecat reprehenderit dolor pariatur sunt minim aliqua
+consequat sed cillum reprehenderit ultrices porta molestie lorem nibh etiam
+dui. Sed voluptate nulla ultrices voluptate est vitae velit quis est id dui
+veniam elit. Dolor mattis nulla cursus non dolor a arcu sunt pariatur sint
+turpis sollicitudin.
+:::
+:::
+
+## Research in brief
+
+- [Coexistence, feasibility and structural stability](research.html#coexistence)
+  — hac excepteur duis magna quis placerat etiam lorem eu pretium anim.
+- [Biodiversity and ecosystem functioning](research.html#bef)
+  — vitae consectetur justo sint minim dui deserunt aliquam culpa ad minim.
+- [Food-web structure and dynamics](research.html#food-webs)
+  — sapien nunc occaecat tellus mattis venenatis ut in ullamco etiam.
+
+A fuller account is on the [Research](research.html) page; the published work
+is listed under [Publications](publications.html).

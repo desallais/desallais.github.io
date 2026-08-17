@@ -1,0 +1,10 @@
+---
+title: "Publications"
+pagetitle: "Publications — Mario Desallais"
+---
+
+Grouped by year, most recent first. Every entry links to its DOI. The list is
+generated from `refs.bib`, which is the single source of truth for
+publications on this site.
+
+{{< include _publications.md >}}
