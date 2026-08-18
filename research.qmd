@@ -3,99 +3,101 @@ title: "Research"
 pagetitle: "Research — Mario Desallais"
 ---
 
-Nullam cursus fringilla morbi sed commodo et curabitur morbi deserunt id. Sint
-arcu ullamco incididunt laborum sit fermentum rhoncus occaecat qui porta morbi
-feugiat lorem vitae deserunt duis aliquam fringilla. Molestie ut velit sit
-dolor sit tempus orci ipsum condimentum sint facilisis. Culpa aliquam sit
-nulla nisi morbi officia curabitur a aliquip fugiat aliquip. Nisi morbi mollit
-in dolor sunt sollicitudin odio integer incididunt quis platea aliquam
-placerat in et mattis cillum fermentum. Vestibulum pretium culpa pretium
-rhoncus augue nostrud reprehenderit irure molestie.
+Ecological communities are more than collections of species: they are
+networks of interactions, and the architecture of these networks — their
+size, their diversity, their structure — governs the properties we
+ultimately care about: which species persist, how much ecosystems function,
+and how well they endure in a changing world.
 
-Cursus pretium cupidatat molestie egestas amet est ea mattis fringilla non
-sunt augue veniam pariatur a. Sapien etiam blandit excepteur tempor officia
-convallis tincidunt ut sapien ad lacus sollicitudin cupidatat excepteur
-laborum justo sit id consectetur. Dui cursus hac molestie turpis cupidatat
-integer minim minim pretium aliquip ipsum feugiat. Orci placerat a aliquip non
-tincidunt fugiat cursus varius nulla mollit duis. A porta justo lorem occaecat
-arcu egestas maecenas venenatis blandit tincidunt lobortis dolore lacus sapien
-odio ullamco culpa elit.
+For most of its history, community ecology has pursued these questions
+along two largely independent paths. Coexistence theory asks *who
+persists* — from the competitive exclusion principle and the paradox of
+the plankton to the modern geometry of feasibility. Biodiversity–ecosystem
+functioning (BEF), born from the grassland experiments of the 1990s, asks
+*what diversity does* — for productivity first, and increasingly for
+stability. Each tradition has matured its own concepts, metrics and
+experiments; I am convinced that their convergence is now one of the most
+exciting frontiers of ecological theory, and it is where I have chosen
+to work.
 
-Suscipit pariatur nullam a exercitation pretium proident laborum ultrices
-nulla sunt fugiat lorem gravida orci habitasse. Cillum mollit nibh sit
-fringilla aliquip dictumst veniam a turpis quis placerat tempor fringilla a
-fringilla cursus ultrices. Amet sollicitudin etiam do eiusmod suscipit dolor
-deserunt ipsum nisl nisl aute ea. Labore fringilla habitasse quis fugiat in
-sed minim ad commodo nulla minim convallis. Integer vestibulum in mollit vitae
-esse curabitur id labore sit voluptate occaecat eu. Tellus nostrud consequat
-ut commodo justo tincidunt ullamco porta qui.
+I come to these questions as a theoretician. My daily instruments are
+deterministic community models — generalized Lotka–Volterra systems,
+mechanistic resource models — together with the notions that make them
+speak: feasibility domains, local stability and its metrics, the
+partitioning of biodiversity effects. I value exact results: the kind
+whose terms have ecological names, and whose conclusions outlive the
+model that produced them.
 
-## Coexistence, feasibility and structural stability {#coexistence}
+The sections below sketch how I see each of these fronts — where the
+field has come from, and where I believe it should go. If these questions
+resonate with you, as a student or a colleague, my door is open.
 
-![Placeholder figure for this research axis.](assets/img/coexistence.svg){fig-alt="Placeholder figure"}
+## The architecture of ecological communities {#architecture}
 
-Tempor eiusmod pariatur rhoncus minim blandit lobortis augue egestas. Commodo
-porta laboris porta amet turpis facilisis ad qui dictumst cupidatat fringilla
-aliquam. Excepteur orci officia pretium duis amet suscipit sit pariatur anim
-velit sint culpa fermentum venenatis nulla minim. Veniam ex aliquip sit veniam
-esse veniam magna tincidunt tincidunt pariatur tincidunt etiam odio quis
-fermentum deserunt. Blandit nulla morbi pariatur tellus molestie nulla
-pariatur egestas deserunt ad nisl non vestibulum blandit.
+![Placeholder figure for this section.](assets/img/architecture.svg){fig-alt="Placeholder figure"}
 
-Placeholder equation, kept here so that the mathematical typesetting stays
-visible while the text is provisional: a community of $S$ species with
-abundances $N_i$ follows
+Fifty years ago, Robert May asked whether a large complex system would be
+stable, and answered: in general, no. Ever since, community ecology has
+been working out what is special about the interaction networks that
+nature does assemble. The last decade gave this old question a geometric
+turn I find particularly elegant: the environmental conditions allowing
+all species of a community to coexist form a domain whose size and shape
+are carved by the interaction network — turning "how likely is
+coexistence, and how fragile?" into something one can actually compute
+([Rohr et al. 2014](https://doi.org/10.1126/science.1253497) remains, for
+me, a landmark of this school).
 
-$$
-\frac{\mathrm{d}N_i}{\mathrm{d}t} = N_i \left( r_i - \sum_{j=1}^{S} A_{ij} N_j \right),
-$$
+What I expect from the coming years is a unification. Coexistence and
+functioning are still mostly treated as separate properties of the same
+communities; yet the signs are accumulating that they constrain each
+other deeply — that what a community yields carries information about
+whether it can persist. Making this link general, and extending it beyond
+single-trophic-level communities into food webs — where even the notion
+of a monoculture baseline dissolves — is, to my eyes, among the most
+promising programmes in community ecology.
 
-so that feasibility requires $N^\star = A^{-1} r > 0$.
+## Mathematics as a microscope {#mathematics-microscope}
 
-Tempus nulla ea laborum aute curabitur pretium tincidunt rhoncus tellus nulla
-convallis venenatis mollit anim fugiat. Aliquam odio aliquam mollit laborum
-convallis nisi esse ultrices vitae rhoncus minim condimentum hac duis feugiat
-est voluptate. Fringilla dui rhoncus pretium odio lacus pretium tempus hac
-molestie proident voluptate justo. Laborum tincidunt pariatur facilisis
-habitasse condimentum do arcu maecenas eu aliquam ipsum.
+![Placeholder figure for this section.](assets/img/mathematics-microscope.svg){fig-alt="Placeholder figure"}
 
-## Biodiversity and ecosystem functioning {#bef}
+Theoretical ecology has a long tradition of small models with large
+consequences: Lotka's and Volterra's equations, MacArthur's consumers and
+resources, May's random matrices, Chesson's coexistence framework, the
+Loreau–Hector partition. None of these were meant as portraits of nature.
+They are instruments — built to isolate one mechanism and make it
+visible. That is the tradition I work in, and the one I want to defend in
+an era rich in data and simulation: a differential equation is a
+statement of mechanism, and what can be derived from it exactly holds
+with the force of logic rather than the contingency of a parameter sweep.
 
-![Placeholder figure for this research axis.](assets/img/bef.svg){fig-alt="Placeholder figure"}
+Concretely, my toolbox is that of dynamical systems applied to ecology:
+Lotka–Volterra and resource-competition models, linear algebra and the
+geometry of feasibility, stability metrics from asymptotic to transient,
+exact partitions of biodiversity effects — with Python simulation to
+verify, to explore, and to meet the data. The theory I find worth writing
+is theory a field ecologist can use without redoing the mathematics.
 
-Molestie orci dolore excepteur porta id platea turpis sed porta ipsum
-sollicitudin. Consequat a aliquip nostrud vestibulum id orci sollicitudin a id
-cupidatat dictumst placerat enim aliquip dictumst. Suscipit lacus occaecat
-blandit ipsum augue sapien sed ad morbi molestie. Reprehenderit sapien sit
-maecenas placerat duis id nibh aliquam. Vestibulum arcu culpa cupidatat justo
-fringilla varius officia magna condimentum pariatur incididunt amet magna
-curabitur. Consequat etiam qui sapien platea egestas reprehenderit sunt
-pretium rhoncus occaecat varius. Gravida turpis proident turpis aliquip eu
-facilisis sit egestas aute porta augue vitae ad.
+## Biodiversity in a changing climate {#biodiversity-climate}
 
-Placerat esse orci varius nullam ut vestibulum tempus laboris dictumst rhoncus
-varius duis irure et sed est egestas dictumst est. Fugiat fringilla sed
-proident fermentum enim dolor in culpa feugiat. Suscipit et consectetur porta
-hac morbi consectetur sint vestibulum molestie cillum a condimentum aute
-pretium. Amet voluptate lorem do ut nibh gravida amet exercitation proident in
-hac.
+![Placeholder figure for this section.](assets/img/biodiversity-climate.svg){fig-alt="Placeholder figure"}
 
-## Food-web structure and dynamics {#food-webs}
+Does diversity stabilise ecosystems? The question is as old as the
+discipline — Elton's intuition, May's counterexample — and the insurance
+hypothesis gave it its modern form: diversity buffers ecosystems because
+different species respond differently to environmental fluctuations
+([Yachi & Loreau 1999](https://doi.org/10.1073/pnas.96.4.1463) remains, to
+me, a model of what simple theory can achieve). Experiments have since
+made the stakes concrete: in grasslands, diversity can increase the
+resistance of productivity to climate extremes
+([Isbell et al. 2015](https://doi.org/10.1038/nature15374)). Yet the
+empirical record on resistance and resilience remains strikingly mixed —
+and I read this not as a failure of the idea, but as a sign that we still
+lack the theory to know what to measure, and how to decompose what we
+observe.
 
-![Placeholder figure for this research axis.](assets/img/food-webs.svg){fig-alt="Placeholder figure"}
-
-Reprehenderit ut aliquam cupidatat est enim tempor sed dolor non a in. Nisi
-lacus gravida pariatur aute sapien veniam maecenas ut. Laboris sit rhoncus
-integer lobortis consequat fringilla duis nostrud minim voluptate in platea.
-Egestas cursus condimentum excepteur tempor cursus porta eu augue occaecat
-pretium ea veniam ea id aute tempor ultrices placerat a. Lorem in varius dui
-condimentum voluptate cursus morbi tincidunt nostrud proident culpa nibh. Qui
-deserunt ad aliquip voluptate consequat ultrices fringilla consectetur eiusmod
-consectetur anim platea.
-
-Lacus gravida integer id vitae eu aliqua etiam exercitation sed proident
-exercitation dictumst. Officia aute quis nulla qui mattis molestie esse
-dictumst odio exercitation esse incididunt sollicitudin elit dui aliquip aute
-morbi. Hac placerat ex et cillum veniam in mollit sit consectetur nulla vitae
-eiusmod fermentum irure blandit etiam esse. Esse irure esse enim sapien tempus
-proident placerat suscipit.
+This is where I see the field's most urgent frontier: stability-oriented
+BEF theory precise enough to be confronted with experiments — in
+grasslands, and increasingly in the international networks of
+tree-diversity experiments, where climate extremes will matter most. The
+ambition, as I see it: turning "biodiversity as insurance" from a
+metaphor into a quantitative, mechanistic statement.

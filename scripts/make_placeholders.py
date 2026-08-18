@@ -20,9 +20,9 @@ ACCENT = "#2a5d78"
 # so its label needs to be proportionally bigger to stay readable)
 PLACEHOLDERS = [
     ("portrait.svg", 600, 750, "Portrait", 46),
-    ("coexistence.svg", 1200, 675, "Coexistence, feasibility & structural stability", 40),
-    ("bef.svg", 1200, 675, "Biodiversity & ecosystem functioning", 40),
-    ("food-webs.svg", 1200, 675, "Food-web structure and dynamics", 40),
+    ("architecture.svg", 1200, 675, "The architecture of ecological communities", 40),
+    ("mathematics-microscope.svg", 1200, 675, "Mathematics as a microscope", 40),
+    ("biodiversity-climate.svg", 1200, 675, "Biodiversity in a changing climate", 40),
 ]
 
 SVG = """<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}"

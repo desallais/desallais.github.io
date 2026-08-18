@@ -1,3 +1,3 @@
-# Provisional site: keep it out of search engines (see CLAUDE.md, rule 4).
+# Provisional site: keep it out of search engines (see CLAUDE.md, rule 5).
 User-agent: *
 Disallow: /

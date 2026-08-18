@@ -28,11 +28,11 @@ turpis sollicitudin.
 
 ## Research in brief
 
-- [Coexistence, feasibility and structural stability](research.html#coexistence)
+- [The architecture of ecological communities](research.html#architecture)
   — hac excepteur duis magna quis placerat etiam lorem eu pretium anim.
-- [Biodiversity and ecosystem functioning](research.html#bef)
+- [Mathematics as a microscope](research.html#mathematics-microscope)
   — vitae consectetur justo sint minim dui deserunt aliquam culpa ad minim.
-- [Food-web structure and dynamics](research.html#food-webs)
+- [Biodiversity in a changing climate](research.html#biodiversity-climate)
   — sapien nunc occaecat tellus mattis venenatis ut in ullamco etiam.
 
 A fuller account is on the [Research](research.html) page; the published work

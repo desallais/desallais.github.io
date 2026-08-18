@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675"
-     viewBox="0 0 1200 675" role="img" aria-label="Food-web structure and dynamics placeholder">
+     viewBox="0 0 1200 675" role="img" aria-label="Biodiversity in a changing climate placeholder">
   <rect width="1200" height="675" fill="#eef1f3"/>
   <rect x="0.5" y="0.5" width="1199" height="674" fill="none"
         stroke="#c9d2d8" stroke-width="1"/>
   <line x1="0" y1="0" x2="1200" y2="675" stroke="#dde3e7" stroke-width="1"/>
   <line x1="1200" y1="0" x2="0" y2="675" stroke="#dde3e7" stroke-width="1"/>
   <text x="600" y="317" text-anchor="middle"
-        font-family="system-ui, sans-serif" font-size="40" fill="#2a5d78">Food-web structure and dynamics</text>
+        font-family="system-ui, sans-serif" font-size="40" fill="#2a5d78">Biodiversity in a changing climate</text>
   <text x="600" y="377" text-anchor="middle"
         font-family="system-ui, sans-serif" font-size="28" fill="#7b8792">1200 &#215; 675 placeholder</text>
 </svg>

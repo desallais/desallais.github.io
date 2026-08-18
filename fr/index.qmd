@@ -28,11 +28,11 @@ turpis sollicitudin.
 
 ## La recherche en bref
 
-- [Coexistence, faisabilité et stabilité structurelle](research.html#coexistence)
+- [L'architecture des communautés écologiques](research.html#architecture)
   — hac excepteur duis magna quis placerat etiam lorem eu pretium anim.
-- [Biodiversité et fonctionnement des écosystèmes](research.html#bef)
+- [Les mathématiques comme microscope](research.html#mathematics-microscope)
   — vitae consectetur justo sint minim dui deserunt aliquam culpa ad minim.
-- [Structure et dynamique des réseaux trophiques](research.html#food-webs)
+- [La biodiversité face au changement climatique](research.html#biodiversity-climate)
   — sapien nunc occaecat tellus mattis venenatis ut in ullamco etiam.
 
 La page [Recherche](research.html) développe ces axes ; les travaux publiés
