@@ -1,7 +1,8 @@
 <script>
 // Language switcher: point EN|FR at the *equivalent* page, never at the other
 // language's home page. EN pages live at /x.html, FR pages at /fr/x.html with
-// identical file names, so the mapping is purely path-based.
+// identical file names and identical section ids, so both the path and the
+// current section anchor carry over.
 // Without JavaScript the links fall back to the hrefs set in _quarto-*.yml.
 (function () {
   function langLink(code) {
@@ -25,11 +26,12 @@
 
   var targets = { en: rest, fr: "/fr" + rest };
   var current = isFR ? "fr" : "en";
+  var anchors = {};
 
   ["en", "fr"].forEach(function (code) {
     var a = langLink(code);
     if (!a) return;
-    a.href = targets[code];
+    anchors[code] = a;
     a.classList.add("lang-item", "lang-" + code);
     if (code === current) {
       a.classList.add("lang-current");
@@ -39,5 +41,17 @@
       a.setAttribute("hreflang", code);
     }
   });
+
+  // Keep the section anchor: the hash changes as the reader follows in-page
+  // links, so refresh the hrefs rather than setting them once.
+  function apply() {
+    var hash = window.location.hash;
+    Object.keys(anchors).forEach(function (code) {
+      anchors[code].href = targets[code] + hash;
+    });
+  }
+
+  apply();
+  window.addEventListener("hashchange", apply);
 })();
 </script>
