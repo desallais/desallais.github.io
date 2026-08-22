@@ -3,89 +3,33 @@ title: "Curriculum vitae"
 pagetitle: "CV — Mario Desallais"
 ---
 
-[Download the full CV (PDF)](assets/cv.pdf){.pdf-link}
+## Current position {#current-position}
 
-## Education
+Postdoctoral researcher in theoretical ecology — University of Fribourg,
+Switzerland, in the group of Rudolf P. Rohr. Since February 2025.
 
-::: cv-entry
-[20XX–20XX]{.cv-date}
-**PhD, theoretical ecology** — Placeholder institution.
-Hac excepteur duis magna quis placerat etiam lorem eu pretium anim fermentum
-porta eiusmod cillum a.
-:::
+## Education {#education}
 
-::: cv-entry
-[20XX–20XX]{.cv-date}
-**MSc, ecology and evolution** — Placeholder institution.
-Vitae consectetur justo sint minim dui deserunt aliquam culpa ad minim ex
-adipiscing labore.
-:::
+- **PhD in Ecology** — University of Toulouse III – Paul Sabatier; research
+  carried out at the Station of Theoretical and Experimental Ecology (SETE,
+  CNRS, Moulis). 2021–2024, defended December 2024. Supervisors: Michel
+  Loreau and Jean-François Arnoldi.
+- **MSc in Biodiversity, Ecology and Evolution** — Sorbonne University.
+  2019–2021.
+- **BSc in Life Sciences** — Sorbonne University. 2015–2018.
 
-## Positions
+## Teaching {#teaching}
 
-::: cv-entry
-[20XX–present]{.cv-date}
-**Placeholder position** — Placeholder laboratory.
-Sapien nunc occaecat tellus mattis venenatis ut in ullamco etiam aliquam
-tellus sunt venenatis tempor feugiat duis.
-:::
+University of Fribourg, 2025–2026:
 
-::: cv-entry
-[20XX–20XX]{.cv-date}
-**Placeholder position** — Placeholder laboratory.
-Ullamco cupidatat aute eu lobortis dolor sit amet consectetur adipiscing elit
-sed do eiusmod tempor.
-:::
+- **Community ecology** (MSc) — two 3-hour lectures: ecological stability;
+  biodiversity–ecosystem functioning (BEF).
+- **Classical models in ecology** — tutorial classes (4 h).
 
-## Teaching
+## Conference presentations {#conference-presentations}
 
-::: cv-entry
-[20XX–20XX]{.cv-date}
-**Placeholder course** — Placeholder institution, XX h per year.
-Incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud
-exercitation ullamco laboris.
-:::
+Posters presenting my PhD work:
 
-::: cv-entry
-[20XX]{.cv-date}
-**Placeholder tutorial or summer school** — Placeholder venue.
-Nisi aliquip ex ea commodo consequat duis aute irure in reprehenderit
-voluptate velit esse cillum.
-:::
-
-::: cv-entry
-[20XX–20XX]{.cv-date}
-**Student supervision** — X MSc students, X interns.
-Eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt
-culpa qui officia deserunt.
-:::
-
-## Talks and seminars
-
-::: cv-entry
-[20XX]{.cv-date}
-**Placeholder conference talk** — Placeholder meeting, city.
-:::
-
-::: cv-entry
-[20XX]{.cv-date}
-**Placeholder invited seminar** — Placeholder institution, city.
-:::
-
-## Service and outreach
-
-::: cv-entry
-[20XX–present]{.cv-date}
-**Reviewer** — Placeholder journals.
-:::
-
-::: cv-entry
-[20XX]{.cv-date}
-**Placeholder outreach activity** — Placeholder venue.
-:::
-
-## Skills
-
-Mollit anim id est laborum curabitur pretium tincidunt lacus nulla gravida
-orci a odio. Nullam varius turpis molestie nibh porta hac habitasse platea
-dictumst integer tempus convallis augue.
+- SFE² Annual Meeting, Metz, 2022.
+- British Ecological Society Annual Meeting, Belfast, 2023.
+- SFE² Annual Meeting, Lyon, 2024.
