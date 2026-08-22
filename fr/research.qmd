@@ -3,32 +3,30 @@ title: "Recherche"
 pagetitle: "Recherche — Mario Desallais"
 ---
 
-Les communautés écologiques sont bien plus que des collections d'espèces :
-ce sont des réseaux d'interactions, et l'architecture de ces réseaux —
-leur taille, leur diversité, leur structure — gouverne les propriétés qui
-nous importent le plus : quelles espèces persistent, quel fonctionnement
-les écosystèmes délivrent, et comment ils tiennent dans un monde qui
-change.
+La recherche que je mène en écologie revient à peindre le tableau d'un
+écosystème (imaginez une forêt foisonnante au loin) et à simplement
+étudier le tableau. C'est plus simple, plus pratique ; on en tire des
+conclusions plus grossières, parfois fausses. Mais au moins, on peut le
+faire depuis son chevalet — refaire le tableau autant de fois qu'il le
+faut, changer une couleur, retirer un arbre et regarder ce qui
+s'effondre. Seulement, ma toile, c'est tantôt un tableau blanc rempli
+d'équations, tantôt l'écran d'un ordinateur en train d'effectuer des
+calculs, tantôt un schéma fléché rédigé sur un coin de brouillon.
 
-Pendant l'essentiel de son histoire, l'écologie des communautés a
-poursuivi ces questions le long de deux chemins largement indépendants.
-La théorie de la coexistence demande *qui persiste* — du principe
-d'exclusion compétitive et du paradoxe du plancton à la géométrie moderne
-de la faisabilité. Le champ « biodiversité et fonctionnement des
-écosystèmes » (BEF), né des expériences en prairie des années 1990,
-demande *ce que fait la diversité* — pour la productivité d'abord, et de
-plus en plus pour la stabilité. Chaque tradition a mûri ses concepts, ses
-métriques et ses expériences ; je suis convaincu que leur convergence est
-aujourd'hui l'un des fronts les plus stimulants de l'écologie théorique —
-et c'est là que j'ai choisi de travailler.
+![John Singer Sargent, « Artist in the Simplon » (v. 1909-1911), aquarelle — Fogg Museum, Harvard.](../assets/sargent-simplon.jpg){fig-alt="Aquarelle de John Singer Sargent : un peintre vu de dos, peignant un paysage alpin." fig-align="center" width="650"}
 
-J'aborde ces questions en théoricien. Mes instruments quotidiens sont les
-modèles déterministes de communautés — systèmes de Lotka-Volterra
-généralisés, modèles mécanistes à ressources — et les notions qui les
-font parler : domaines de faisabilité, stabilité locale et ses métriques,
-partitionnement des effets de la biodiversité. J'ai un goût marqué pour
-les résultats exacts : ceux dont chaque terme porte un nom écologique, et
-dont les conclusions survivent au modèle qui les a produites.
+Ce qui m'intéresse, donc, ce sont les grands principes, les règles qui
+émergent ou qui façonnent les écosystèmes : comment plusieurs espèces
+coexistent-elles, ou à partir de quand finissent-elles par s'exclure ?
+Comment le nombre d'espèces influence-t-il un écosystème, et le plus
+grand nombre est-il toujours le meilleur ?
+
+Ces deux questions n'ont rien de nouveau : ce sont, en résumé, les
+thématiques de la théorie de la coexistence et du champ « biodiversité
+et fonctionnement des écosystèmes » (BEF), dont je suis un des humbles
+descendants. Deux traditions qui se sont longtemps ignorées — et dont
+la rencontre est, à mes yeux, l'un des fronts les plus stimulants de la
+discipline. C'est là que j'ai posé mon chevalet.
 
 Les sections qui suivent esquissent ma lecture de chacun de ces fronts —
 d'où vient le champ, et où je crois qu'il doit aller. Si ces questions

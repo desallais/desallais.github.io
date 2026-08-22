@@ -3,34 +3,35 @@ title: "Research"
 pagetitle: "Research — Mario Desallais"
 ---
 
-Ecological communities are more than collections of species: they are
-networks of interactions, and the architecture of these networks — their
-size, their diversity, their structure — governs the properties we
-ultimately care about: which species persist, how much ecosystems function,
-and how well they endure in a changing world.
+My research in ecology amounts to painting a picture of an ecosystem
+(imagine a teeming forest in the distance) and simply studying the
+picture. It is simpler, more practical; the conclusions are coarser,
+sometimes wrong. But at least it can be done from the easel —
+repainting the canvas as many times as it takes, changing a colour,
+removing a tree and watching what collapses. Only, my canvas is
+sometimes a whiteboard covered in equations, sometimes a computer
+screen in the middle of a calculation, sometimes an arrow diagram
+scribbled on a corner of scrap paper.
 
-For most of its history, community ecology has pursued these questions
-along two largely independent paths. Coexistence theory asks *who
-persists* — from the competitive exclusion principle and the paradox of
-the plankton to the modern geometry of feasibility. Biodiversity–ecosystem
-functioning (BEF), born from the grassland experiments of the 1990s, asks
-*what diversity does* — for productivity first, and increasingly for
-stability. Each tradition has matured its own concepts, metrics and
-experiments; I am convinced that their convergence is now one of the most
-exciting frontiers of ecological theory, and it is where I have chosen
-to work.
+![John Singer Sargent, "Artist in the Simplon" (c. 1909-11), watercolour — Fogg Museum, Harvard Art Museums.](assets/sargent-simplon.jpg){fig-alt="Watercolour by John Singer Sargent: a painter seen from behind, painting an Alpine landscape." fig-align="center" width="650"}
 
-I come to these questions as a theoretician. My daily instruments are
-deterministic community models — generalized Lotka–Volterra systems,
-mechanistic resource models — together with the notions that make them
-speak: feasibility domains, local stability and its metrics, the
-partitioning of biodiversity effects. I value exact results: the kind
-whose terms have ecological names, and whose conclusions outlive the
-model that produced them.
+What interests me, then, are the broad principles — the rules that
+emerge from ecosystems, or that shape them: how do several species
+manage to coexist, and at what point do they end up excluding one
+another? How does the number of species influence an ecosystem — and
+is more always better?
+
+There is nothing new about these two questions: they are, in short,
+the themes of coexistence theory and of biodiversity–ecosystem
+functioning (BEF), of which I am one of the humble descendants. Two
+traditions that long ignored each other — and whose meeting is, to my
+eyes, one of the most exciting frontiers of the discipline. That is
+where I have set up my easel.
 
 The sections below sketch how I see each of these fronts — where the
-field has come from, and where I believe it should go. If these questions
-resonate with you, as a student or a colleague, my door is open.
+field has come from, and where I believe it should go. If these
+questions resonate with you — for an internship, a PhD, or a
+collaboration — my door is open.
 
 ## The architecture of ecological communities {#architecture}
 
