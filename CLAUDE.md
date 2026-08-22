@@ -63,6 +63,10 @@ Autres fichiers :
 - `assets/styles.scss` — thème et palette (voir ci-dessous).
 - `assets/head.html` — balise `noindex`.
 - `assets/lang-switch.html` — script du sélecteur de langue.
+- `assets/header-couserans.jpg` — photo de l'en-tête d'accueil (1920 × 1080).
+  Référencée **uniquement depuis le SCSS**, donc déclarée dans les
+  `resources` de `_quarto.yml` : sans cette ligne, Quarto ne la copierait pas
+  dans `_site/`.
 - `assets/portrait.jpg` — portrait de l'accueil (600 × 600), recadré depuis
   la photo brute par `figures/crop_portrait.py`.
 - `scripts/gen_publications.py` — construit `_publications.md` depuis
@@ -94,6 +98,46 @@ Le slate reste dominant : le forest et le stone ne servent qu'à réchauffer.
 Toute nouvelle couleur passe par une de ces trois variables ; si une
 quatrième teinte semble nécessaire, c'est le signe qu'il faut en discuter
 plutôt que de l'ajouter.
+
+## Typographie et mise en page
+
+- Corps à 18 px, interligne 1,7, colonne de lecture fixée à 600 px dans
+  `_quarto.yml` (`grid: body-width`) — soit ~70 signes par ligne, mesuré sur
+  la page Recherche. Changer l'un sans l'autre casse ce réglage.
+- **Deux graisses seulement** : 400 pour le corps, 600 pour les titres et le
+  gras (`$font-weight-bold: 600`). Ne pas introduire de 700.
+- Le flottant de la page Recherche (`.fig-float`, 270 px) est calibré sur
+  cette colonne : élargir la colonne sans revoir le flottant laisse un texte
+  ridiculement étroit à côté de l'image.
+
+## En-tête photographique
+
+`.photo-backdrop` est la règle centralisée pour toute photo de fond :
+elle empile un repli `$slate` (bande unie lisible si l'image ne charge pas),
+la photo en couleur légèrement assagie (`filter`), puis un voile dégradé plus
+dense en bas, là où se pose le texte clair. Pour un futur bandeau, il suffit
+d'ajouter la classe et de déclarer l'image :
+
+```scss
+.mon-bandeau {
+  --photo: url("/assets/ma-photo.jpg");
+}
+```
+
+Le chemin est **absolu** (`/assets/…`) : le CSS compilé vit dans
+`site_libs/bootstrap/`, un chemin relatif y serait résolu au mauvais endroit.
+La photo est décorative : elle reste un fond CSS, donc invisible aux lecteurs
+d'écran — l'équivalent d'un `alt=""`.
+
+Le bandeau de l'accueil (`.landscape-header`) n'existe que sur `index.qmd` et
+`fr/index.qmd`, en HTML brut (` ```{=html} `). Deux pièges :
+
+- l'accueil n'a **pas** de `title:` dans son en-tête YAML : Quarto hisserait
+  tout `<h1>` de la page dans son propre bloc-titre, au-dessus du bandeau.
+  D'où le nom en `<p class="header-name" role="heading" aria-level="1">`, qui
+  garde la sémantique de titre de niveau 1 sans déclencher ce mécanisme ;
+- le conteneur `#title-block-header` vide subsiste malgré tout dans le HTML :
+  il est masqué par `#title-block-header:empty`.
 
 ## Commandes
 

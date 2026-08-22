@@ -158,6 +158,105 @@ a {
   color: $accent;
 }
 
+// ---- Fonds photographiques ----------------------------------------------
+//
+// Une seule règle pour toute photo de fond. Un bloc n'a qu'à porter la classe
+// `.photo-backdrop` et déclarer son image dans `--photo` : il hérite du repli
+// slate (si l'image ne charge pas, une bande unie lisible plutôt qu'un trou
+// blanc), du filtre et du voile dégradé qui garantissent le contraste du
+// texte clair posé dessus.
+.photo-backdrop {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background-color: $slate; // repli
+}
+
+// Couche 1 : la photo, en couleur pleine, à peine assagie.
+.photo-backdrop::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background-image: var(--photo, none);
+  background-size: cover;
+  background-position: center 58%;
+  background-repeat: no-repeat;
+  filter: saturate(0.94) contrast(1.03);
+}
+
+// Couche 2 : le voile, dense derrière le texte (en bas), léger sur le ciel.
+.photo-backdrop::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+    to top,
+    rgba(14, 20, 25, 0.82) 0%,
+    rgba(14, 20, 25, 0.66) 26%,
+    rgba(14, 20, 25, 0.34) 60%,
+    rgba(14, 20, 25, 0.14) 100%
+  );
+}
+
+// ---- En-tête paysage (accueil uniquement) --------------------------------
+
+// L'accueil n'a pas de bloc-titre Quarto : le nom vit dans le bandeau. Le
+// conteneur vide subsiste dans le HTML, on l'efface pour coller le bandeau
+// sous la barre de navigation.
+#title-block-header:empty {
+  display: none;
+}
+
+.landscape-header {
+  --photo: url("/assets/header-couserans.jpg");
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-top: -1.6rem;
+  margin-bottom: 2.8rem;
+  display: flex;
+  align-items: flex-end;
+  height: 38vh;
+  min-height: 13rem;
+  max-height: 40vh;
+}
+
+.landscape-header .header-text {
+  width: 100%;
+  max-width: 600px; // même colonne que le corps du site
+  margin: 0 auto;
+  padding: 0 1.2rem 1.7rem;
+}
+
+// Quarto hisse tout `<h1>` dans son propre bloc-titre : le nom est donc un
+// paragraphe porteur du rôle ARIA de titre de niveau 1.
+.landscape-header .header-name {
+  color: #fff;
+  font-family: $headings-font-family;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  font-size: clamp(1.8rem, 4.6vw, 2.5rem);
+  line-height: 1.15;
+  margin: 0 0 0.35rem;
+  text-shadow: 0 1px 12px rgba(14, 20, 25, 0.45);
+}
+
+.landscape-header .affil {
+  color: rgba(255, 255, 255, 0.92);
+  font-family: $font-family-sans-serif;
+  font-size: 0.92rem;
+  margin: 0;
+  text-shadow: 0 1px 10px rgba(14, 20, 25, 0.5);
+}
+
+@media (max-width: 700px) {
+  .landscape-header {
+    height: 34vh;
+    min-height: 11rem;
+  }
+}
+
 // ---- Home ---------------------------------------------------------------
 
 .hero {

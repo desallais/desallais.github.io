@@ -8,6 +8,7 @@ project:
   pre-render: scripts/gen_publications.py
   resources:
     - assets/cv.pdf
+    - assets/header-couserans.jpg   # référencée seulement depuis le SCSS
     - robots.txt
 
 profile:
