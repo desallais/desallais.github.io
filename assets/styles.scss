@@ -181,6 +181,32 @@ a {
   }
 }
 
+// ---- Positions (Au-delà) -------------------------------------------------
+
+// Citation + prise de position : un filet à gauche, pas de couleur criarde.
+.position {
+  border-left: 3px solid $accent;
+  background: #fafbfc;
+  padding: 1.1rem 1.3rem 0.15rem;
+  margin: 1.7rem 0;
+}
+
+.position blockquote {
+  border: 0;
+  margin: 0 0 1rem;
+  padding: 0;
+}
+
+.position blockquote p {
+  margin-bottom: 0.4rem;
+}
+
+.position .attrib {
+  font-family: $font-family-sans-serif;
+  font-size: 0.85rem;
+  color: #5a6672;
+}
+
 // ---- Figures, CV, footer ------------------------------------------------
 
 figure img,

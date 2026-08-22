@@ -5,16 +5,37 @@ pagetitle: "Au-delà — Mario Desallais"
 
 ## Prises de position {#positions}
 
-Maecenas eiusmod laborum morbi consequat amet lorem aliqua convallis molestie
-id morbi blandit excepteur velit feugiat dolor duis. Fringilla exercitation
-justo suscipit proident gravida orci facilisis incididunt nostrud nullam a
-vitae lobortis justo consequat. Fringilla hac facilisis tempor cursus culpa
-cillum tempor pariatur fringilla proident lobortis commodo officia vitae
-incididunt nisl exercitation vitae. Tellus in incididunt consectetur molestie
-exercitation maecenas tempus pariatur laborum rhoncus nostrud tincidunt varius
-integer vitae fermentum lobortis pretium. Dictumst pariatur ea porta qui
-reprehenderit nulla molestie et. Pretium condimentum etiam nulla exercitation
-labore porta convallis duis voluptate.
+::: position
+> « L'homme le plus opprimé peut opprimer un être, qui est sa femme. Elle est
+> le prolétaire du prolétaire même. »
+>
+> [— d'après Flora Tristan, *L'Union ouvrière*, 1843]{.attrib}
+
+Je soutiens, sans ordre ni hiérarchie, celles et ceux que l'on opprime : les
+victimes de racisme et d'antisémitisme ; les femmes, face au sexisme ; les
+travailleuses et les travailleurs, face aux bourgeois qui vivent de leur
+exploitation ; les personnes lesbiennes, gays, bisexuelles, transgenres ;
+les personnes handicapées ; et tous les peuples soumis à la guerre, au
+nettoyage ethnique, à l'apartheid ou au génocide (le peuple palestinien,
+soudanais, ouïghour, et tous les autres que je n'ai pas la place de citer).
+:::
+
+::: position
+> « Une écologie sans lutte des classes, c'est du jardinage. »
+>
+> [— attribué à Chico Mendes]{.attrib}
+
+Je ne prétends pas sauver l'environnement par ma recherche, encore moins
+« la planète » — celle-ci se portera très bien, avec ou sans nous. Et je ne
+crois pas que l'accumulation de savoir soit ce qui fera bouger les choses :
+mieux comprendre un monde ne suffit pas à le protéger
+([Dupont et al., 2025](https://doi.org/10.1038/s41559-024-02535-0)). Si je
+fais ce métier, c'est par curiosité — l'envie de comprendre comment la
+nature s'organise autour de nous — et non pour en faire un levier
+politique. Car pour défendre le vivant dans lequel nous vivons, je crois
+qu'une seule chose agit vraiment : l'engagement politique et la lutte
+collective.
+:::
 
 ## Influences {#influences}
 

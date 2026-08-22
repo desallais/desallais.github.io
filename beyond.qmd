@@ -5,16 +5,35 @@ pagetitle: "Beyond research — Mario Desallais"
 
 ## Positions {#positions}
 
-Maecenas eiusmod laborum morbi consequat amet lorem aliqua convallis molestie
-id morbi blandit excepteur velit feugiat dolor duis. Fringilla exercitation
-justo suscipit proident gravida orci facilisis incididunt nostrud nullam a
-vitae lobortis justo consequat. Fringilla hac facilisis tempor cursus culpa
-cillum tempor pariatur fringilla proident lobortis commodo officia vitae
-incididunt nisl exercitation vitae. Tellus in incididunt consectetur molestie
-exercitation maecenas tempus pariatur laborum rhoncus nostrud tincidunt varius
-integer vitae fermentum lobortis pretium. Dictumst pariatur ea porta qui
-reprehenderit nulla molestie et. Pretium condimentum etiam nulla exercitation
-labore porta convallis duis voluptate.
+::: position
+> "The most oppressed man can oppress one being, his wife. She is the
+> proletarian of the proletarian himself."
+>
+> [— after Flora Tristan, *L'Union ouvrière*, 1843]{.attrib}
+
+I stand, in no order and no hierarchy, with those who are oppressed: the
+victims of racism and antisemitism; women, against sexism; workers, against
+the bourgeois who live off their exploitation; lesbian, gay, bisexual and
+transgender people; disabled people; and all peoples subjected to war,
+ethnic cleansing, apartheid or genocide (the Palestinian, Sudanese and
+Uyghur peoples, and all the others I have no room to name).
+:::
+
+::: position
+> "Ecology without class struggle is just gardening."
+>
+> [— attributed to Chico Mendes]{.attrib}
+
+I do not claim to save the environment through my research, still less "the
+planet" — which will do quite well, with or without us. Nor do I believe
+that accumulating knowledge is what will change things: understanding a
+world better is not enough to protect it
+([Dupont et al., 2025](https://doi.org/10.1038/s41559-024-02535-0)). If I
+do this work, it is out of curiosity — the wish to understand how nature
+organises itself around us — and not to turn it into a political lever. For
+to defend the living world we inhabit, I believe only one thing truly acts:
+political engagement and collective struggle.
+:::
 
 ## Influences {#influences}
 
