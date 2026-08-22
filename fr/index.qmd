@@ -5,7 +5,7 @@ description-meta: "Site personnel de Mario Desallais, écologue théoricien."
 ---
 
 ::: hero
-![](../assets/img/portrait.svg){.portrait fig-alt="Portrait (image provisoire)"}
+![](../assets/portrait.jpg){.portrait fig-alt="Portrait de Mario Desallais"}
 
 ::: hero-text
 [Chercheur en écologie théorique — postdoctorant, Université de Fribourg]{.affil}

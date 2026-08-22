@@ -64,13 +64,19 @@ Autres fichiers :
 - `assets/styles.scss` — thème (une seule couleur d'accent : `$accent`).
 - `assets/head.html` — balise `noindex`.
 - `assets/lang-switch.html` — script du sélecteur de langue.
-- `assets/img/` — portrait et figures (placeholders SVG pour l'instant).
+- `assets/portrait.jpg` — portrait de l'accueil (600 × 600), recadré depuis
+  la photo brute par `figures/crop_portrait.py`.
+- `assets/img/` — figures de la page Recherche (placeholders SVG pour
+  l'instant).
 - `scripts/gen_publications.py` — construit `_publications.md` depuis
   `refs.bib` (fichier généré, non versionné). Après un clone neuf, le lancer
   une fois (ou lancer `./build.sh`) avant le premier `quarto preview` :
   Quarto résout les `{{< include >}}` avant d'exécuter ses scripts de
   pré-rendu.
 - `scripts/make_placeholders.py` — régénère les placeholders (images, CV).
+- `figures/crop_portrait.py` — recadre le portrait de l'accueil depuis la
+  photo d'appareil (source non versionnée ; bornes commentées dans le
+  script). Relancer seulement si la source ou le cadrage changent.
 - `build.sh` — construit les deux langues et les fusionne dans `_site/`.
 
 ## Commandes
@@ -118,7 +124,6 @@ Influences et À côté viendront plus tard. Restent à remplacer :
   de l'accueil (`index.qmd`, `fr/index.qmd`). Les quatre valeurs doivent
   rester identiques entre les deux. Idem pour l'adresse e-mail (actuellement
   l'adresse personnelle — à remplacer par l'institutionnelle si besoin).
-- `assets/img/portrait.svg` — remplacer par un vrai portrait (600 × 750).
 - `assets/img/architecture.svg`, `mathematics-microscope.svg`,
   `biodiversity-climate.svg` — une figure par section de Recherche
   (1200 × 675).
