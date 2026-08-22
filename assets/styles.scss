@@ -187,18 +187,30 @@ a {
 .position {
   border-left: 3px solid $accent;
   background: #fafbfc;
-  padding: 1.1rem 1.3rem 0.15rem;
-  margin: 1.7rem 0;
+  padding: 1.5rem 1.7rem 0.6rem;
+  margin: 0 0 3.4rem;
 }
 
+.position:last-of-type {
+  margin-bottom: 1rem;
+}
+
+// La citation tient lieu de titre : elle doit dominer le paragraphe.
 .position blockquote {
   border: 0;
-  margin: 0 0 1rem;
+  margin: 0 0 1.4rem;
   padding: 0;
 }
 
 .position blockquote p {
-  margin-bottom: 0.4rem;
+  font-size: 1.32rem;
+  line-height: 1.45;
+  color: $headings-color;
+  margin-bottom: 0.55rem;
+}
+
+.position blockquote p:last-child {
+  margin-bottom: 0;
 }
 
 .position .attrib {

@@ -50,9 +50,10 @@ Les **identifiants de sections sont en anglais des deux côtés**, dérivés des
 titres anglais : `#architecture`, `#mathematics-microscope`,
 `#biodiversity-climate` (Recherche) ; `#current-position`, `#education`,
 `#teaching`, `#conference-presentations` (CV) ; `#current-projects`, `#news`
-(Accueil) ; `#positions`, `#influences`, `#asides` (Au-delà). C'est ce qui
-fait que les ancres se correspondent d'une langue à l'autre. Renommer une
-section = mettre à jour l'id des deux côtés **et** tout lien qui la vise.
+(Accueil). C'est ce qui fait que les ancres se correspondent d'une langue à
+l'autre. Renommer une section = mettre à jour l'id des deux côtés **et**
+tout lien qui la vise. La page Au-delà n'a plus de titres de section depuis
+la session du 22 août 2026 : les deux citations en tiennent lieu.
 
 Autres fichiers :
 
@@ -106,13 +107,12 @@ Deux pièges rencontrés, à ne pas réintroduire :
 
 ## Contenu provisoire à remplacer
 
-Les pages Accueil, Recherche et CV portent le texte définitif de Mario
-(sessions du 18 au 22 août 2026) ; ne pas le reformuler, il le retravaillera
-lui-même. Le reste est encore du lorem ipsum, à remplacer bloc par bloc : un
-bloc de lorem = un endroit unique dans un fichier `.qmd` (× 2 pour la parité
-EN/FR). Restent à remplacer :
+Toutes les pages portent désormais le texte définitif de Mario (sessions du
+18 au 22 août 2026) ; ne pas le reformuler, il le retravaillera lui-même.
+Plus une ligne de lorem ipsum sur le site. La page Au-delà se réduit
+volontairement aux deux encadrés « prises de position » ; les sections
+Influences et À côté viendront plus tard. Restent à remplacer :
 
-- `beyond.qmd` / `fr/beyond.qmd` : tout le corps de texte.
 - ORCID (`0000-0000-0000-0000`) et Google Scholar (`REPLACE_ME`) — présents
   à deux endroits : le pied de page (`_quarto.yml`) et la rangée de contact
   de l'accueil (`index.qmd`, `fr/index.qmd`). Les quatre valeurs doivent
