@@ -47,9 +47,8 @@ permet au sélecteur EN|FR de pointer vers la page équivalente (`/x.html` ↔
 `/fr/x.html`). Ne jamais renommer une page d'un seul côté.
 
 Les **identifiants de sections sont en anglais des deux côtés**, dérivés des
-titres anglais : `#architecture`, `#mathematics-microscope`,
-`#biodiversity-climate` (Recherche) ; `#current-position`, `#education`,
-`#teaching`, `#conference-presentations` (CV) ; `#current-projects`, `#news`
+titres anglais : `#current-position`, `#education`, `#teaching`,
+`#conference-presentations` (CV) ; `#current-projects`, `#news`
 (Accueil). C'est ce qui fait que les ancres se correspondent d'une langue à
 l'autre. Renommer une section = mettre à jour l'id des deux côtés **et**
 tout lien qui la vise. La page Au-delà n'a plus de titres de section depuis
@@ -66,14 +65,13 @@ Autres fichiers :
 - `assets/lang-switch.html` — script du sélecteur de langue.
 - `assets/portrait.jpg` — portrait de l'accueil (600 × 600), recadré depuis
   la photo brute par `figures/crop_portrait.py`.
-- `assets/img/` — figures de la page Recherche (placeholders SVG pour
-  l'instant).
 - `scripts/gen_publications.py` — construit `_publications.md` depuis
   `refs.bib` (fichier généré, non versionné). Après un clone neuf, le lancer
   une fois (ou lancer `./build.sh`) avant le premier `quarto preview` :
   Quarto résout les `{{< include >}}` avant d'exécuter ses scripts de
   pré-rendu.
-- `scripts/make_placeholders.py` — régénère les placeholders (images, CV).
+- `scripts/make_placeholders.py` — vestige : il régénérait les images et le
+  CV placeholders, tous retirés depuis. À supprimer.
 - `figures/crop_portrait.py` — recadre le portrait de l'accueil depuis la
   photo d'appareil (source non versionnée ; bornes commentées dans le
   script). Relancer seulement si la source ou le cadrage changent.
@@ -111,34 +109,36 @@ Deux pièges rencontrés, à ne pas réintroduire :
 - Dans `_quarto-fr.yml`, `lang: fr` serait interprété comme un chemin (le
   dossier `fr/` existe) et produirait `lang="../fr"`. D'où `lang: fr-FR`.
 
-## Contenu provisoire à remplacer
+## État du contenu
 
-Toutes les pages portent désormais le texte définitif de Mario (sessions du
-18 au 22 août 2026) ; ne pas le reformuler, il le retravaillera lui-même.
-Plus une ligne de lorem ipsum sur le site. La page Au-delà se réduit
-volontairement aux deux encadrés « prises de position » ; les sections
-Influences et À côté viendront plus tard. Restent à remplacer :
+Toutes les pages portent le texte définitif de Mario (sessions du 18 au
+22 août 2026) ; ne pas le reformuler, il le retravaillera lui-même. Plus une
+ligne de lorem ipsum ni une image provisoire sur le site.
+
+Deux pages sont volontairement incomplètes, Mario écrira la suite lui-même :
+
+- **Recherche** — l'introduction et l'aquarelle de Sargent seulement ; les
+  trois sections (architecture, mathématiques, biodiversité-climat) et leurs
+  figures ont été retirées le 22 août 2026, de nouvelles sections viendront.
+- **Au-delà** — les deux encadrés « prises de position » seulement ; les
+  sections Influences et À côté viendront plus tard.
+
+Deux points de vigilance :
 
 - L'adresse e-mail est encore l'adresse personnelle — à remplacer par
-  l'institutionnelle si besoin. Attention : les quatre liens de contact
-  (e-mail, ORCID, Google Scholar, GitHub) vivent à **deux** endroits, le pied
-  de page (`_quarto.yml`) et la rangée de contact de l'accueil (`index.qmd`,
+  l'institutionnelle si besoin. Les quatre liens de contact (e-mail, ORCID,
+  Google Scholar, GitHub) vivent à **deux** endroits, le pied de page
+  (`_quarto.yml`) et la rangée de contact de l'accueil (`index.qmd`,
   `fr/index.qmd`) ; toute correction se fait aux deux, sinon les deux rangées
   divergent.
-- `assets/img/architecture.svg`, `mathematics-microscope.svg`,
-  `biodiversity-climate.svg` — une figure par section de Recherche
-  (1200 × 675).
-- `assets/cv.pdf` — le vrai CV. Attention : depuis la session du 22 août
-  2026, **aucune page ne pointe vers ce PDF** (Mario ajoutera le lien
-  lui-même) ; le fichier est toujours copié dans le site par les
-  `resources` de `_quarto.yml`.
-
-Remplacer une image ou le CV = écraser le fichier au même chemin ; aucun
-`.qmd` à modifier.
+- `assets/cv.pdf` est un placeholder qu'**aucune page ne lie** ; sujet mis de
+  côté par Mario. Le fichier reste copié dans le site par les `resources` de
+  `_quarto.yml`.
 
 ## Passer le site en public
 
-Quand le contenu provisoire aura disparu :
+Il n'y a plus de contenu provisoire : le site n'attend que le feu vert de
+Mario. Le jour où il le donne :
 
 1. supprimer la balise dans `assets/head.html` (garder le fichier vide ou
    retirer `include-in-header` de `_quarto.yml`) ;

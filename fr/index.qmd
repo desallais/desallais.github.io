@@ -14,17 +14,14 @@ description-meta: "Site personnel de Mario Desallais, écologue théoricien."
 [Email](mailto:mario.desallais@gmail.com)[·]{.sep}[ORCID](https://orcid.org/0009-0007-3880-592X)[·]{.sep}[Google Scholar](https://scholar.google.com/citations?user=4AH0f-kAAAAJ)[·]{.sep}[GitHub](https://github.com/desallais)
 :::
 
-Je suis écologue théoricien. Mon travail revient à peindre le tableau d'un
-écosystème pour en étudier les grands principes : comment les espèces
-coexistent, ce que la diversité change au fonctionnement d'un écosystème, et
-comment tout cela résiste à un climat qui change. Mes outils sont ceux du
-théoricien — modèles déterministes, algèbre, géométrie de la faisabilité, et
-la simulation en Python — au service d'une théorie assez précise pour être
-confrontée aux données. Je travaille au point de rencontre de deux
-traditions longtemps séparées : la théorie de la coexistence et la
-biodiversité-fonctionnement des écosystèmes.
+Je suis un théoricien en écologie, spécialisé dans l'écologie des
+communautés et dans le fonctionnement des écosystèmes. Je m'intéresse aux
+notions de stabilité en écologie, à quantifier les effets de la
+biodiversité et à décrire le rôle des interactions entre les espèces. Mes
+outils sont essentiellement mathématiques (algèbre, calcul matriciel,
+statistiques) et informatiques (simulations).
 
-[→ En savoir plus sur mes recherches](research.html){.more}
+[→ Voir plus sur la page dédiée](research.html){.more}
 :::
 :::
 
