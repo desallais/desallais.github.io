@@ -1,6 +1,5 @@
 ---
 title: "Mario Desallais"
-subtitle: "Theoretical ecologist"
 pagetitle: "Mario Desallais — Theoretical ecology"
 description-meta: "Personal site of Mario Desallais, theoretical ecologist."
 ---
@@ -9,31 +8,49 @@ description-meta: "Personal site of Mario Desallais, theoretical ecologist."
 ![](assets/img/portrait.svg){.portrait fig-alt="Portrait placeholder"}
 
 ::: hero-text
-[Placeholder affiliation — Laboratory, Institution, City]{.affil}
+[Theoretical ecologist — postdoctoral researcher, University of Fribourg]{.affil}
 
-Commodo blandit nulla tellus nunc sollicitudin blandit tempus nulla sit
-sollicitudin anim sapien ea tempus adipiscing ad labore. Id suscipit ea sint
-orci ut varius ea ipsum justo laboris proident aute quis. Ad morbi fringilla
-do magna habitasse habitasse officia dolore dolore lorem suscipit lorem
-ullamco sapien. Minim suscipit minim in velit exercitation orci condimentum
-etiam platea ullamco quis.
+::: contact
+[Email](mailto:mario.desallais@gmail.com)[·]{.sep}[ORCID](https://orcid.org/0000-0000-0000-0000)[·]{.sep}[Google Scholar](https://scholar.google.com/citations?user=REPLACE_ME)[·]{.sep}[GitHub](https://github.com/desallais)
+:::
 
-Exercitation fermentum occaecat reprehenderit dolor pariatur sunt minim aliqua
-consequat sed cillum reprehenderit ultrices porta molestie lorem nibh etiam
-dui. Sed voluptate nulla ultrices voluptate est vitae velit quis est id dui
-veniam elit. Dolor mattis nulla cursus non dolor a arcu sunt pariatur sint
-turpis sollicitudin.
+I am a theoretical ecologist. My work amounts to painting a picture of an
+ecosystem in order to study its broad principles: how species coexist, what
+diversity changes about the way an ecosystem functions, and how all of this
+holds up under a changing climate. My tools are those of the theoretician —
+deterministic models, algebra, the geometry of feasibility, and simulation
+in Python — in the service of theory precise enough to be brought to the
+data. I work at the meeting point of two long-separated traditions:
+coexistence theory and biodiversity–ecosystem functioning.
+
+[→ More about my research](research.html){.more}
 :::
 :::
 
-## Research in brief
+## Current projects {#current-projects}
 
-- [The architecture of ecological communities](research.html#architecture)
-  — hac excepteur duis magna quis placerat etiam lorem eu pretium anim.
-- [Mathematics as a microscope](research.html#mathematics-microscope)
-  — vitae consectetur justo sint minim dui deserunt aliquam culpa ad minim.
-- [Biodiversity in a changing climate](research.html#biodiversity-climate)
-  — sapien nunc occaecat tellus mattis venenatis ut in ullamco etiam.
+- **Coexistence and eco-evolution** — my postdoc is officially concerned with
+  coexistence and eco-evolution, funded through the SNSF–NSF Lead Agency
+  project led by Rudolf P. Rohr (University of Fribourg), in connection with
+  Serguei Saavedra (MIT).
+  [SNSF grant](https://data.snf.ch/grants/grant/10000467) ·
+  [S. Saavedra's group](https://sites.google.com/site/sergueisaavedra/)
+- **Biodiversity and ecosystem functioning** — alongside this, I continue my
+  BEF work, with several studies in preparation.
+- **Div4Drought (CESAB–FRB)** — I contribute to this collaborative project on
+  diversity and drought.
+  [Project page](https://www.fondationbiodiversite.fr/en/the-frb-in-action/programs-and-projects/le-cesab/div4drought/)
+- **Biodiversity, resistance and resilience** — building on my *Ecology
+  Letters* (2025) paper, I work on this link with an experimental approach,
+  in collaboration with Dr Sarah Gray (Bersier Lab, University of Fribourg).
 
-A fuller account is on the [Research](research.html) page; the published work
-is listed under [Publications](publications.html).
+## News {#news}
+
+- **December 2026** — I will be attending the British Ecological Society
+  Annual Meeting in Birmingham, in person.
+- **2025** — Paper out in *Ecology Letters*: partitioning biodiversity effects
+  on ecosystem resistance and resilience.
+- **2025** — Paper out in *Oikos*: the distribution of distances to the edge
+  of species coexistence.
+- **February 2025** — Started my postdoctoral position at the University of
+  Fribourg.

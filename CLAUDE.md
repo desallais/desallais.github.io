@@ -26,6 +26,11 @@ Quarto statique, déployé automatiquement sur GitHub Pages à chaque push sur
    **À faire au début de chaque session : rappeler à Mario que le site est
    toujours en `noindex`**, et lui demander si le moment est venu de le
    retirer (voir « Passer le site en public » plus bas).
+6. **Hygiène du bloc Actualités.** L'accueil (`index.qmd`, `fr/index.qmd`)
+   ne porte jamais plus de **quatre** entrées, en ordre chronologique
+   inverse (la plus récente en haut). Toute entrée de plus de douze mois est
+   retirée : ajouter une actualité, c'est aussi vérifier si la plus ancienne
+   doit sortir. Les deux langues restent alignées entrée pour entrée.
 
 ## Structure
 
@@ -43,10 +48,11 @@ permet au sélecteur EN|FR de pointer vers la page équivalente (`/x.html` ↔
 
 Les **identifiants de sections sont en anglais des deux côtés**, dérivés des
 titres anglais : `#architecture`, `#mathematics-microscope`,
-`#biodiversity-climate` (Recherche) ; `#positions`, `#influences`, `#asides`
-(Au-delà). C'est ce qui fait que les ancres se correspondent d'une langue à
-l'autre. Renommer une section = mettre à jour l'id des deux côtés **et** les
-liens de l'accueil (`index.qmd`, `fr/index.qmd`).
+`#biodiversity-climate` (Recherche) ; `#current-position`, `#education`,
+`#teaching`, `#conference-presentations` (CV) ; `#current-projects`, `#news`
+(Accueil) ; `#positions`, `#influences`, `#asides` (Au-delà). C'est ce qui
+fait que les ancres se correspondent d'une langue à l'autre. Renommer une
+section = mettre à jour l'id des deux côtés **et** tout lien qui la vise.
 
 Autres fichiers :
 
@@ -100,25 +106,26 @@ Deux pièges rencontrés, à ne pas réintroduire :
 
 ## Contenu provisoire à remplacer
 
-Les pages Recherche / Research portent le texte définitif de Mario (session
-du 18 août 2026) ; ne pas le reformuler, il le retravaillera lui-même. Les
-autres corps de texte sont encore du lorem ipsum, à remplacer bloc par bloc :
-un bloc de lorem = un endroit unique dans un fichier `.qmd` (× 2 pour la
-parité EN/FR). Restent aussi à remplacer :
+Les pages Accueil, Recherche et CV portent le texte définitif de Mario
+(sessions du 18 au 22 août 2026) ; ne pas le reformuler, il le retravaillera
+lui-même. Le reste est encore du lorem ipsum, à remplacer bloc par bloc : un
+bloc de lorem = un endroit unique dans un fichier `.qmd` (× 2 pour la parité
+EN/FR). Restent à remplacer :
 
-- `_quarto.yml` : ORCID (`0000-0000-0000-0000`), Google Scholar
-  (`REPLACE_ME`), et l'adresse e-mail (actuellement l'adresse personnelle —
-  à remplacer par l'adresse institutionnelle si besoin).
-- `index.qmd` / `fr/index.qmd` : ligne d'affiliation, bio de l'accueil et les
-  amorces de « Research in brief » (les titres et les liens y sont à jour,
-  seules les fins de puces sont encore en lorem).
-- `cv.qmd` / `fr/cv.qmd` : toutes les entrées (dates en `20XX`, intitulés
-  « provisoire »).
+- `beyond.qmd` / `fr/beyond.qmd` : tout le corps de texte.
+- ORCID (`0000-0000-0000-0000`) et Google Scholar (`REPLACE_ME`) — présents
+  à deux endroits : le pied de page (`_quarto.yml`) et la rangée de contact
+  de l'accueil (`index.qmd`, `fr/index.qmd`). Les quatre valeurs doivent
+  rester identiques entre les deux. Idem pour l'adresse e-mail (actuellement
+  l'adresse personnelle — à remplacer par l'institutionnelle si besoin).
 - `assets/img/portrait.svg` — remplacer par un vrai portrait (600 × 750).
 - `assets/img/architecture.svg`, `mathematics-microscope.svg`,
   `biodiversity-climate.svg` — une figure par section de Recherche
   (1200 × 675).
-- `assets/cv.pdf` — le vrai CV.
+- `assets/cv.pdf` — le vrai CV. Attention : depuis la session du 22 août
+  2026, **aucune page ne pointe vers ce PDF** (Mario ajoutera le lien
+  lui-même) ; le fichier est toujours copié dans le site par les
+  `resources` de `_quarto.yml`.
 
 Remplacer une image ou le CV = écraser le fichier au même chemin ; aucun
 `.qmd` à modifier.
