@@ -11,7 +11,7 @@ description-meta: "Personal site of Mario Desallais, theoretical ecologist."
 [Theoretical ecologist — postdoctoral researcher, University of Fribourg]{.affil}
 
 ::: contact
-[Email](mailto:mario.desallais@gmail.com)[·]{.sep}[ORCID](https://orcid.org/0000-0000-0000-0000)[·]{.sep}[Google Scholar](https://scholar.google.com/citations?user=REPLACE_ME)[·]{.sep}[GitHub](https://github.com/desallais)
+[Email](mailto:mario.desallais@gmail.com)[·]{.sep}[ORCID](https://orcid.org/0009-0007-3880-592X)[·]{.sep}[Google Scholar](https://scholar.google.com/citations?user=4AH0f-kAAAAJ)[·]{.sep}[GitHub](https://github.com/desallais)
 :::
 
 I am a theoretical ecologist. My work amounts to painting a picture of an

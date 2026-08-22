@@ -119,11 +119,12 @@ Plus une ligne de lorem ipsum sur le site. La page Au-delà se réduit
 volontairement aux deux encadrés « prises de position » ; les sections
 Influences et À côté viendront plus tard. Restent à remplacer :
 
-- ORCID (`0000-0000-0000-0000`) et Google Scholar (`REPLACE_ME`) — présents
-  à deux endroits : le pied de page (`_quarto.yml`) et la rangée de contact
-  de l'accueil (`index.qmd`, `fr/index.qmd`). Les quatre valeurs doivent
-  rester identiques entre les deux. Idem pour l'adresse e-mail (actuellement
-  l'adresse personnelle — à remplacer par l'institutionnelle si besoin).
+- L'adresse e-mail est encore l'adresse personnelle — à remplacer par
+  l'institutionnelle si besoin. Attention : les quatre liens de contact
+  (e-mail, ORCID, Google Scholar, GitHub) vivent à **deux** endroits, le pied
+  de page (`_quarto.yml`) et la rangée de contact de l'accueil (`index.qmd`,
+  `fr/index.qmd`) ; toute correction se fait aux deux, sinon les deux rangées
+  divergent.
 - `assets/img/architecture.svg`, `mathematics-microscope.svg`,
   `biodiversity-climate.svg` — une figure par section de Recherche
   (1200 × 675).
