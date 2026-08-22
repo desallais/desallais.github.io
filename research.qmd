@@ -13,7 +13,9 @@ sometimes a whiteboard covered in equations, sometimes a computer
 screen in the middle of a calculation, sometimes an arrow diagram
 scribbled on a corner of scrap paper.
 
-![John Singer Sargent, "Artist in the Simplon" (c. 1909-11), watercolour — Fogg Museum, Harvard Art Museums.](assets/sargent-simplon.jpg){fig-alt="Watercolour by John Singer Sargent: a painter seen from behind, painting an Alpine landscape." fig-align="center" width="650"}
+:::: {.fig-float}
+![John Singer Sargent, "Artist in the Simplon" (c. 1909-11), watercolour — Fogg Museum, Harvard Art Museums.](assets/sargent-simplon.jpg){fig-alt="Watercolour by John Singer Sargent: a painter seen from behind, painting an Alpine landscape." width="320"}
+::::
 
 What interests me, then, are the broad principles — the rules that
 emerge from ecosystems, or that shape them: how do several species

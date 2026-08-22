@@ -13,7 +13,9 @@ s'effondre. Seulement, ma toile, c'est tantôt un tableau blanc rempli
 d'équations, tantôt l'écran d'un ordinateur en train d'effectuer des
 calculs, tantôt un schéma fléché rédigé sur un coin de brouillon.
 
-![John Singer Sargent, « Artist in the Simplon » (v. 1909-1911), aquarelle — Fogg Museum, Harvard.](../assets/sargent-simplon.jpg){fig-alt="Aquarelle de John Singer Sargent : un peintre vu de dos, peignant un paysage alpin." fig-align="center" width="650"}
+:::: {.fig-float}
+![John Singer Sargent, « Artist in the Simplon » (v. 1909-1911), aquarelle — Fogg Museum, Harvard.](../assets/sargent-simplon.jpg){fig-alt="Aquarelle de John Singer Sargent : un peintre vu de dos, peignant un paysage alpin." width="320"}
+::::
 
 Ce qui m'intéresse, donc, ce sont les grands principes, les règles qui
 émergent ou qui façonnent les écosystèmes : comment plusieurs espèces

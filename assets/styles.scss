@@ -64,6 +64,7 @@ h2 {
   margin-top: 2.4rem;
   padding-bottom: 0.3rem;
   border-bottom: 1px solid $border-color;
+  clear: both;
 }
 
 h3 {
@@ -163,6 +164,28 @@ a {
 figure img,
 .figure img {
   border: 1px solid $border-color;
+}
+
+// Illustration set beside the text rather than across it, so it does not
+// cut a paragraph in two. Falls back to full width on narrow screens.
+.fig-float {
+  float: right;
+  width: 320px;
+  max-width: 45%;
+  margin: 0.25rem 0 0.9rem 1.8rem;
+}
+
+.fig-float figure {
+  margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+  .fig-float {
+    float: none;
+    width: auto;
+    max-width: 100%;
+    margin: 1.4rem 0;
+  }
 }
 
 figcaption,
