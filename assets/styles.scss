@@ -1,11 +1,25 @@
 /*-- scss:defaults --*/
 
-// One accent colour for the whole site.
-$accent: #2a5d78;
+// ---- Palette -----------------------------------------------------------
+//
+// Trois teintes, définies ici et nulle part ailleurs.
+//   $slate  — accent dominant : liens, titres, navigation, repli photo.
+//   $forest — accent secondaire, discret : filets d'encadré, survol des liens.
+//   $stone  — accents fins UNIQUEMENT (filets, puces, séparateurs). Contraste
+//             2,4:1 sur blanc : jamais de texte dans cette teinte.
+//
+// Contrastes sur blanc (WCAG) : slate 7,15:1 (AAA) ; forest 5,90:1 (AA) ;
+// blanc sur slate 7,15:1 (AAA, pour le texte de l'en-tête paysage).
+$slate: #2a5d78;
+$forest: #4f6b52;
+$stone: #b8a678;
 
-$primary: $accent;
-$link-color: $accent;
-$link-hover-color: darken($accent, 12%);
+// Alias historique : le slate reste l'accent dominant du site.
+$accent: $slate;
+
+$primary: $slate;
+$link-color: $slate;
+$link-hover-color: $forest;
 
 $body-color: #1f2328;
 $body-bg: #ffffff;
@@ -33,7 +47,8 @@ $footer-fg: #5a6672;
 $code-color: #45525c;
 $code-bg: #f5f7f8;
 
-$border-color: #e2e6ea;
+// Filets : un gris chaud tiré du stone, jamais le gris bleuté d'origine.
+$border-color: mix($stone, #ffffff, 32%);
 $table-border-color: $border-color;
 
 /*-- scss:rules --*/
@@ -157,7 +172,7 @@ a {
 }
 
 .hero .contact .sep {
-  color: #b9c2c9;
+  color: $stone;
   margin: 0 0.4rem;
 }
 
@@ -181,11 +196,16 @@ a {
   }
 }
 
+// Puces : la seule autre apparition du stone.
+main li::marker {
+  color: $stone;
+}
+
 // ---- Positions (Au-delà) -------------------------------------------------
 
 // Citation + prise de position : un filet à gauche, pas de couleur criarde.
 .position {
-  border-left: 3px solid $accent;
+  border-left: 3px solid $forest;
   background: #fafbfc;
   padding: 1.5rem 1.7rem 0.6rem;
   margin: 0 0 3.4rem;

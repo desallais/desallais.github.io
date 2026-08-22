@@ -60,7 +60,7 @@ Autres fichiers :
   `noindex`, script de pré-rendu).
 - `_quarto-en.yml` / `_quarto-fr.yml` — un profil de rendu par langue : liste
   des pages, barre de navigation traduite, `lang`.
-- `assets/styles.scss` — thème (une seule couleur d'accent : `$accent`).
+- `assets/styles.scss` — thème et palette (voir ci-dessous).
 - `assets/head.html` — balise `noindex`.
 - `assets/lang-switch.html` — script du sélecteur de langue.
 - `assets/portrait.jpg` — portrait de l'accueil (600 × 600), recadré depuis
@@ -76,6 +76,24 @@ Autres fichiers :
   photo d'appareil (source non versionnée ; bornes commentées dans le
   script). Relancer seulement si la source ou le cadrage changent.
 - `build.sh` — construit les deux langues et les fusionne dans `_site/`.
+
+## Palette
+
+Trois teintes, définies en tête de `assets/styles.scss` et **nulle part
+ailleurs** — pas de couleur écrite en dur dans un `.qmd` ou ailleurs dans le
+SCSS :
+
+| Variable | Valeur | Contraste sur blanc | Emploi |
+|---|---|---|---|
+| `$slate` | `#2a5d78` | 7,15:1 (AAA) | accent dominant : liens, titres, navigation, repli de l'en-tête photo |
+| `$forest` | `#4f6b52` | 5,90:1 (AA) | accent secondaire, discret : filet des encadrés « prises de position », survol des liens |
+| `$stone` | `#b8a678` | 2,40:1 | **accents fins seulement** : filets (`$border-color`), puces, séparateurs. Jamais de texte |
+
+Le slate reste dominant : le forest et le stone ne servent qu'à réchauffer.
+`$accent` est un alias de `$slate`, conservé pour les règles déjà écrites.
+Toute nouvelle couleur passe par une de ces trois variables ; si une
+quatrième teinte semble nécessaire, c'est le signe qu'il faut en discuter
+plutôt que de l'ajouter.
 
 ## Commandes
 
