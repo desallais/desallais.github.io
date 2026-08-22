@@ -50,4 +50,4 @@ format:
     include-after-body: assets/lang-switch.html
     fig-cap-location: bottom
     grid:
-      body-width: 820px
+      body-width: 600px

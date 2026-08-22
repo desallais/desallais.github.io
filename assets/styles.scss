@@ -30,11 +30,12 @@ $font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
   "Helvetica Neue", Arial, sans-serif;
 
 $font-family-base: $font-family-serif;
-$font-size-root: 17px;
-$line-height-base: 1.65;
+$font-size-root: 18px;
+$line-height-base: 1.7;
 
 $headings-font-family: $font-family-serif;
 $headings-font-weight: 600;
+$font-weight-bold: 600;
 $headings-color: #14181c;
 
 $navbar-bg: #ffffff;
@@ -71,24 +72,39 @@ h4 {
 
 h1.title {
   font-size: 2.05rem;
-  margin-bottom: 1.2rem;
+  line-height: 1.25;
+  margin-bottom: 1.4rem;
 }
 
 h2 {
   font-size: 1.4rem;
-  margin-top: 2.4rem;
-  padding-bottom: 0.3rem;
+  line-height: 1.3;
+  margin-top: 3.2rem;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.35rem;
   border-bottom: 1px solid $border-color;
   clear: both;
 }
 
 h3 {
   font-size: 1.15rem;
-  margin-top: 1.8rem;
+  line-height: 1.35;
+  margin-top: 2.1rem;
 }
 
 p {
-  margin-bottom: 1.05rem;
+  margin-bottom: 1.15rem;
+}
+
+// Deux graisses sur tout le site : 400 pour le corps, 600 pour les titres
+// et les termes mis en avant.
+strong,
+b {
+  font-weight: 600;
+}
+
+main li {
+  margin-bottom: 0.35rem;
 }
 
 a {
@@ -146,8 +162,8 @@ a {
 
 .hero {
   display: grid;
-  grid-template-columns: 220px 1fr;
-  gap: 2rem;
+  grid-template-columns: 170px 1fr;
+  gap: 1.7rem;
   align-items: start;
   margin-bottom: 1rem;
 }
@@ -250,9 +266,9 @@ figure img,
 // cut a paragraph in two. Falls back to full width on narrow screens.
 .fig-float {
   float: right;
-  width: 320px;
-  max-width: 45%;
-  margin: 0.25rem 0 0.9rem 1.8rem;
+  width: 270px;
+  max-width: 46%;
+  margin: 0.25rem 0 0.9rem 1.6rem;
 }
 
 .fig-float figure {
